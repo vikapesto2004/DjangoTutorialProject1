@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'playground', # Добавили приложение
     "debug_toolbar", # Django Debug Toolbar
+    'store',
+    'tags',
 ]
 
 STATIC_URL = "static/"
